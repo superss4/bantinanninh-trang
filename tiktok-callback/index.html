@@ -1,0 +1,9 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer"><title>Đang kết nối TikTok…</title><link rel="stylesheet" href="../style.css"></head><body>
+<h1>Đang chuyển về trang quản trị…</h1>
+<p>Trang này chỉ chuyển mã cấp quyền TikTok về công cụ quản trị chạy trên máy tính của quản trị viên (localhost). Nếu không tự chuyển, hãy kiểm tra máy chủ "Bản tin An ninh" đã chạy chưa.</p>
+<script>
+  // Chỉ chuyển tiếp code/state về máy chủ nội bộ trên chính máy này; trang không lưu hay gửi dữ liệu đi nơi khác.
+  location.replace('http://localhost:3210/admin/tiktok/callback' + location.search);
+</script>
+</body></html>
